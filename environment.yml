@@ -1,0 +1,34 @@
+# Versions of the environment the results in results/NUMBERS.md were produced with
+# (from the test-log headers and the lab environment file). Linux + CUDA 11.8.
+# After creating the env, also build the GaussianFormer op: see third_party/README.md.
+name: localaggtr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.18
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu118
+      - --find-links https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html
+      - torch==2.1.2+cu118
+      - torchvision==0.16.2+cu118
+      - mmengine==0.10.7
+      - mmcv==2.1.0
+      - mmdet==3.3.0
+      - mmdet3d==1.4.0
+      - mmsegmentation==1.2.2
+      - mmpretrain==1.2.0
+      - openmim==0.3.9
+      - gsplat @ git+https://github.com/nerfstudio-project/gsplat.git@0b4dddf04cb687367602c01196913cde6a743d70
+      - numpy==1.24.4
+      - scipy==1.15.3
+      - matplotlib==3.5.3
+      - pillow==11.0.0
+      - opencv-python==4.11.0.86
+      - nuscenes-devkit==1.1.11
+      - pyquaternion==0.9.9
+      - terminaltables==3.1.10
+      - timm==1.0.15
+      - ftfy==6.3.1
+      - regex==2024.11.6
+      - ninja==1.11.1.4

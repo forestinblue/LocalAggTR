@@ -1,0 +1,48 @@
+# source: Local_Agg_1st.log
+# lines copied verbatim (server paths replaced by <server>/); "L<n>:" = line number in source
+
+L9:     GPU 0: NVIDIA GeForce RTX 2080 Ti
+L13:     PyTorch: 2.1.2+cu118
+L206:             type='LocalAggWrapper',
+L252:         ann_file='nuscenes_infos_val.pkl',
+L322:     use_image_mask=True,
+L491:         ann_file='nuscenes_infos_val.pkl',
+L561:     use_image_mask=True,
+L692: 2025/10/19 07:01:00 - mmengine - INFO - Load checkpoint from <server>/Modified_GaussTR/work_dirs/baseline/iter_56272.pth
+L693: 2025/10/19 07:02:51 - mmengine - INFO - Epoch(test) [ 200/6019]    eta: 0:53:56  time: 0.5479  data_time: 0.0035  memory: 1899  
+L694: 2025/10/19 07:04:42 - mmengine - INFO - Epoch(test) [ 400/6019]    eta: 0:51:55  time: 0.5540  data_time: 0.0036  memory: 1899  
+L695: 2025/10/19 07:06:34 - mmengine - INFO - Epoch(test) [ 600/6019]    eta: 0:50:13  time: 0.5634  data_time: 0.0032  memory: 1899  
+L696: 2025/10/19 07:08:25 - mmengine - INFO - Epoch(test) [ 800/6019]    eta: 0:48:26  time: 0.5586  data_time: 0.0035  memory: 1899  
+L697: 2025/10/19 07:10:17 - mmengine - INFO - Epoch(test) [1000/6019]    eta: 0:46:36  time: 0.5612  data_time: 0.0035  memory: 1899  
+L698: 2025/10/19 07:12:10 - mmengine - INFO - Epoch(test) [1200/6019]    eta: 0:44:50  time: 0.5660  data_time: 0.0037  memory: 1899  
+L699: 2025/10/19 07:14:02 - mmengine - INFO - Epoch(test) [1400/6019]    eta: 0:42:59  time: 0.5573  data_time: 0.0037  memory: 1899  
+L700: 2025/10/19 07:15:54 - mmengine - INFO - Epoch(test) [1600/6019]    eta: 0:41:08  time: 0.5558  data_time: 0.0037  memory: 1899  
+L701: 2025/10/19 07:17:45 - mmengine - INFO - Epoch(test) [1800/6019]    eta: 0:39:16  time: 0.5621  data_time: 0.0036  memory: 1899  
+L702: 2025/10/19 07:19:37 - mmengine - INFO - Epoch(test) [2000/6019]    eta: 0:37:24  time: 0.5591  data_time: 0.0038  memory: 1899  
+L703: 2025/10/19 07:21:29 - mmengine - INFO - Epoch(test) [2200/6019]    eta: 0:35:33  time: 0.5636  data_time: 0.0033  memory: 1899  
+L704: 2025/10/19 07:23:22 - mmengine - INFO - Epoch(test) [2400/6019]    eta: 0:33:43  time: 0.5646  data_time: 0.0038  memory: 1899  
+L705: 2025/10/19 07:25:14 - mmengine - INFO - Epoch(test) [2600/6019]    eta: 0:31:51  time: 0.5554  data_time: 0.0036  memory: 1899  
+L706: 2025/10/19 07:27:06 - mmengine - INFO - Epoch(test) [2800/6019]    eta: 0:30:00  time: 0.5624  data_time: 0.0037  memory: 1899  
+L707: 2025/10/19 07:28:58 - mmengine - INFO - Epoch(test) [3000/6019]    eta: 0:28:08  time: 0.5611  data_time: 0.0037  memory: 1899  
+L708: 2025/10/19 07:30:51 - mmengine - INFO - Epoch(test) [3200/6019]    eta: 0:26:17  time: 0.5611  data_time: 0.0037  memory: 1899  
+L709: 2025/10/19 07:32:43 - mmengine - INFO - Epoch(test) [3400/6019]    eta: 0:24:25  time: 0.5578  data_time: 0.0037  memory: 1899  
+L710: 2025/10/19 07:34:34 - mmengine - INFO - Epoch(test) [3600/6019]    eta: 0:22:33  time: 0.5600  data_time: 0.0037  memory: 1899  
+L711: 2025/10/19 07:36:26 - mmengine - INFO - Epoch(test) [3800/6019]    eta: 0:20:41  time: 0.5558  data_time: 0.0036  memory: 1899  
+L712: 2025/10/19 07:38:17 - mmengine - INFO - Epoch(test) [4000/6019]    eta: 0:18:48  time: 0.5576  data_time: 0.0037  memory: 1899  
+L713: 2025/10/19 07:40:08 - mmengine - INFO - Epoch(test) [4200/6019]    eta: 0:16:56  time: 0.5564  data_time: 0.0038  memory: 1899  
+L714: 2025/10/19 07:42:01 - mmengine - INFO - Epoch(test) [4400/6019]    eta: 0:15:05  time: 0.5616  data_time: 0.0038  memory: 1899  
+L715: 2025/10/19 07:43:52 - mmengine - INFO - Epoch(test) [4600/6019]    eta: 0:13:13  time: 0.5555  data_time: 0.0038  memory: 1899  
+L716: 2025/10/19 07:45:43 - mmengine - INFO - Epoch(test) [4800/6019]    eta: 0:11:21  time: 0.5561  data_time: 0.0039  memory: 1899  
+L717: 2025/10/19 07:47:34 - mmengine - INFO - Epoch(test) [5000/6019]    eta: 0:09:29  time: 0.5543  data_time: 0.0038  memory: 1899  
+L718: 2025/10/19 07:49:26 - mmengine - INFO - Epoch(test) [5200/6019]    eta: 0:07:37  time: 0.5607  data_time: 0.0038  memory: 1899  
+L719: 2025/10/19 07:51:17 - mmengine - INFO - Epoch(test) [5400/6019]    eta: 0:05:45  time: 0.5588  data_time: 0.0038  memory: 1899  
+L720: 2025/10/19 07:53:08 - mmengine - INFO - Epoch(test) [5600/6019]    eta: 0:03:54  time: 0.5566  data_time: 0.0038  memory: 1899  
+L721: 2025/10/19 07:55:00 - mmengine - INFO - Epoch(test) [5800/6019]    eta: 0:02:02  time: 0.5580  data_time: 0.0039  memory: 1899  
+L722: 2025/10/19 07:56:52 - mmengine - INFO - Epoch(test) [6000/6019]    eta: 0:00:10  time: 0.5580  data_time: 0.0038  memory: 1899  
+L730: 2025/10/19 07:57:03 - mmengine - INFO - Epoch(test) [6019/6019]    others: 0.0002  barrier: 0.0172  bicycle: 0.0234  bus: 0.1365  car: 0.0619  construction_vehicle: 0.0010  motorcycle: 0.0319  pedestrian: 0.0342  traffic_cone: 0.0142  trailer: 0.0000  truck: 0.0840  driveable_surface: 0.1653  other_flat: 0.0020  sidewalk: 0.0812  terrain: 0.1659  manmade: 0.1473  vegetation: 0.1425  miou: 0.0652  iou: 0.2261  data_time: 0.0039  time: 0.5586
+
+L725: +---------+--------+---------+---------+--------+--------+----------------------+------------+------------+--------------+---------+--------+-------------------+------------+----------+---------+---------+------------+--------+--------+
+L726: | classes | others | barrier | bicycle | bus    | car    | construction_vehicle | motorcycle | pedestrian | traffic_cone | trailer | truck  | driveable_surface | other_flat | sidewalk | terrain | manmade | vegetation | miou   | iou    |
+L727: +---------+--------+---------+---------+--------+--------+----------------------+------------+------------+--------------+---------+--------+-------------------+------------+----------+---------+---------+------------+--------+--------+
+L728: | results | 0.0002 | 0.0172  | 0.0234  | 0.1365 | 0.0619 | 0.0010               | 0.0319     | 0.0342     | 0.0142       | 0.0000  | 0.0840 | 0.1653            | 0.0020     | 0.0812   | 0.1659  | 0.1473  | 0.1425     | 0.0652 | 0.2261 |
+L729: +---------+--------+---------+---------+--------+--------+----------------------+------------+------------+--------------+---------+--------+-------------------+------------+----------+---------+---------+------------+--------+--------+

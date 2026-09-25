@@ -1,0 +1,33 @@
+# private dev tools (need lab code; never publish)
+dev/
+
+# checkpoints, data, experiment outputs
+*.pth
+*.pt
+*.ckpt
+*.pkl
+data/
+work_dirs/
+outputs/
+outputs_compare/
+outputs_gaussvox/
+*.log
+
+# third-party checkouts / builds
+GaussTR/
+GaussianFormer/
+build/
+*.egg-info/
+*.so
+
+# python / OS / IDE
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+
+# internal release-prep notes (not published)
+CLAUDE.md
+RELEASE_SCOPE.md
+.checks/

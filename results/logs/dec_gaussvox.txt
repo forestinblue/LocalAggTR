@@ -1,0 +1,52 @@
+# source: gauss_voxel.log
+# lines copied verbatim (server paths replaced by <server>/); "L<n>:" = line number in source
+
+L2: Testing command is <server>/miniconda3/envs/zhang_env/bin/python3.10 <server>/miniconda3/envs/zhang_env/lib/python3.10/site-packages/mmdet3d/.mim/tools/test.py configs/weakgauss_baseline.py <server>/Modified_GaussTR/work_dirs/baseline/iter_56272.pth --launcher none --work-dir work_dirs/gaussvox/tesnvidfiat_2025-12-10_0810. 
+L11:     GPU 0: NVIDIA GeForce RTX 2080 Ti
+L15:     PyTorch: 2.1.2+cu118
+L179:         s_max_xyz=(
+L194:         tau_quantile=0.9,
+L200:             type='GaussianVoxelizer',
+L253:         ann_file='nuscenes_infos_val.pkl',
+L323:     use_image_mask=True,
+L492:         ann_file='nuscenes_infos_val.pkl',
+L562:     use_image_mask=True,
+L703: missing keys in source state_dict: gauss_heads.0.s_max_xyz, gauss_heads.0.voxelizer.pc_min, gauss_heads.0.voxelizer.pc_max, gauss_heads.1.s_max_xyz, gauss_heads.1.voxelizer.pc_min, gauss_heads.1.voxelizer.pc_max, gauss_heads.2.s_max_xyz, gauss_heads.2.voxelizer.pc_min, gauss_heads.2.voxelizer.pc_max
+L705: 12/10 08:11:46 - mmengine - INFO - Load checkpoint from <server>/Modified_GaussTR/work_dirs/baseline/iter_56272.pth
+L733: 12/10 08:28:42 - mmengine - INFO - Epoch(test) [ 200/6019]    eta: 8:12:35  time: 4.0798  data_time: 0.0041  memory: 1914  
+L734: 12/10 08:42:23 - mmengine - INFO - Epoch(test) [ 400/6019]    eta: 7:10:07  time: 4.0565  data_time: 0.0044  memory: 1914  
+L735: 12/10 08:56:01 - mmengine - INFO - Epoch(test) [ 600/6019]    eta: 6:39:44  time: 3.9516  data_time: 0.0047  memory: 1914  
+L736: 12/10 09:09:57 - mmengine - INFO - Epoch(test) [ 800/6019]    eta: 6:19:33  time: 3.9336  data_time: 0.0051  memory: 1914  
+L737: 12/10 09:23:34 - mmengine - INFO - Epoch(test) [1000/6019]    eta: 6:00:22  time: 4.0946  data_time: 0.0047  memory: 1914  
+L738: 12/10 09:37:18 - mmengine - INFO - Epoch(test) [1200/6019]    eta: 5:43:31  time: 4.3992  data_time: 0.0041  memory: 1914  
+L739: 12/10 09:50:36 - mmengine - INFO - Epoch(test) [1400/6019]    eta: 5:26:06  time: 3.7766  data_time: 0.0040  memory: 1914  
+L740: 12/10 10:04:00 - mmengine - INFO - Epoch(test) [1600/6019]    eta: 5:09:58  time: 3.9780  data_time: 0.0042  memory: 1914  
+L741: 12/10 10:17:10 - mmengine - INFO - Epoch(test) [1800/6019]    eta: 4:53:54  time: 4.2503  data_time: 0.0043  memory: 1914  
+L742: 12/10 10:30:02 - mmengine - INFO - Epoch(test) [2000/6019]    eta: 4:37:50  time: 3.6706  data_time: 0.0041  memory: 1914  
+L743: 12/10 10:43:54 - mmengine - INFO - Epoch(test) [2200/6019]    eta: 4:24:06  time: 4.4987  data_time: 0.0042  memory: 1914  
+L744: 12/10 10:57:47 - mmengine - INFO - Epoch(test) [2400/6019]    eta: 4:10:20  time: 4.0670  data_time: 0.0046  memory: 1914  
+L745: 12/10 11:12:25 - mmengine - INFO - Epoch(test) [2600/6019]    eta: 3:57:33  time: 4.4573  data_time: 0.0047  memory: 1914  
+L746: 12/10 11:26:48 - mmengine - INFO - Epoch(test) [2800/6019]    eta: 3:44:13  time: 4.1834  data_time: 0.0045  memory: 1914  
+L747: 12/10 11:41:42 - mmengine - INFO - Epoch(test) [3000/6019]    eta: 3:31:15  time: 4.5243  data_time: 0.0047  memory: 1914  
+L748: 12/10 11:55:31 - mmengine - INFO - Epoch(test) [3200/6019]    eta: 3:17:06  time: 3.9873  data_time: 0.0042  memory: 1914  
+L749: 12/10 12:10:13 - mmengine - INFO - Epoch(test) [3400/6019]    eta: 3:03:40  time: 4.5670  data_time: 0.0041  memory: 1914  
+L750: 12/10 12:24:33 - mmengine - INFO - Epoch(test) [3600/6019]    eta: 2:49:51  time: 4.1618  data_time: 0.0041  memory: 1914  
+L751: 12/10 12:37:50 - mmengine - INFO - Epoch(test) [3800/6019]    eta: 2:35:22  time: 4.0498  data_time: 0.0042  memory: 1914  
+L752: 12/10 12:51:27 - mmengine - INFO - Epoch(test) [4000/6019]    eta: 2:21:10  time: 4.0486  data_time: 0.0045  memory: 1914  
+L753: 12/10 13:05:26 - mmengine - INFO - Epoch(test) [4200/6019]    eta: 2:07:10  time: 4.3386  data_time: 0.0040  memory: 1914  
+L754: 12/10 13:19:27 - mmengine - INFO - Epoch(test) [4400/6019]    eta: 1:53:12  time: 4.4943  data_time: 0.0041  memory: 1914  
+L755: 12/10 13:32:58 - mmengine - INFO - Epoch(test) [4600/6019]    eta: 1:39:05  time: 4.0352  data_time: 0.0043  memory: 1914  
+L756: 12/10 13:45:56 - mmengine - INFO - Epoch(test) [4800/6019]    eta: 1:24:51  time: 3.9796  data_time: 0.0040  memory: 1914  
+L757: 12/10 13:59:01 - mmengine - INFO - Epoch(test) [5000/6019]    eta: 1:10:46  time: 3.8942  data_time: 0.0041  memory: 1914  
+L758: 12/10 14:12:12 - mmengine - INFO - Epoch(test) [5200/6019]    eta: 0:56:46  time: 4.1727  data_time: 0.0044  memory: 1914  
+L759: 12/10 14:24:54 - mmengine - INFO - Epoch(test) [5400/6019]    eta: 0:42:46  time: 4.0306  data_time: 0.0044  memory: 1914  
+L760: 12/10 14:39:45 - mmengine - INFO - Epoch(test) [5600/6019]    eta: 0:29:01  time: 4.4392  data_time: 0.0041  memory: 1914  
+L761: 12/10 14:54:39 - mmengine - INFO - Epoch(test) [5800/6019]    eta: 0:15:12  time: 4.3908  data_time: 0.0050  memory: 1914  
+L762: 12/10 15:09:25 - mmengine - INFO - Epoch(test) [6000/6019]    eta: 0:01:19  time: 4.6976  data_time: 0.0046  memory: 1914  
+L770: 12/10 15:10:54 - mmengine - INFO - Epoch(test) [6019/6019]    others: 0.0000  barrier: 0.0609  bicycle: 0.0779  bus: 0.1987  car: 0.2217  construction_vehicle: 0.0011  motorcycle: 0.1180  pedestrian: 0.1512  traffic_cone: 0.0842  trailer: 0.0000  truck: 0.1742  driveable_surface: 0.2846  other_flat: 0.0012  sidewalk: 0.0953  terrain: 0.1371  manmade: 0.1359  vegetation: 0.1392  miou: 0.1107  iou: 0.2521  data_time: 0.0363  time: 4.1780
+
+L765: +---------+--------+---------+---------+--------+--------+----------------------+------------+------------+--------------+---------+--------+-------------------+------------+----------+---------+---------+------------+--------+--------+
+L766: | classes | others | barrier | bicycle | bus    | car    | construction_vehicle | motorcycle | pedestrian | traffic_cone | trailer | truck  | driveable_surface | other_flat | sidewalk | terrain | manmade | vegetation | miou   | iou    |
+L767: +---------+--------+---------+---------+--------+--------+----------------------+------------+------------+--------------+---------+--------+-------------------+------------+----------+---------+---------+------------+--------+--------+
+L768: | results | 0.0000 | 0.0609  | 0.0779  | 0.1987 | 0.2217 | 0.0011               | 0.1180     | 0.1512     | 0.0842       | 0.0000  | 0.1742 | 0.2846            | 0.0012     | 0.0953   | 0.1371  | 0.1359  | 0.1392     | 0.1107 | 0.2521 |
+L769: +---------+--------+---------+---------+--------+--------+----------------------+------------+------------+--------------+---------+--------+-------------------+------------+----------+---------+---------+------------+--------+--------+
