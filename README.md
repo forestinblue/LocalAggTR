@@ -33,7 +33,7 @@ input sanitization and a free-space rule. That adapter and those rules are this 
 
 ## Method
 
-![pipeline](assets/pipeline.png)
+See Figure 1 (top of this page) for where the swapped voxelizer sits in the pipeline.
 
 Key design choices:
 1. **One head, two backends, switched by config.** `voxelizer=dict(type='LocalAggWrapper' | 'GaussianVoxelizerCompat')`. Both backends receive the same sanitized Gaussians, so a comparison changes only the voxelizer. (`src/localagg_tr/dual_backend_head.py`, `configs/voxelizer_*.py`)
