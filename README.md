@@ -1,6 +1,8 @@
 # LocalAggTR — a Local Aggregation voxelizer backend for GaussTR, ~7× faster inference
 
-![hero](assets/hero.png)
+![Figure 1: the GaussTR voxelizer swapped for Local Aggregation](assets/hero.png)
+
+*Figure 1. Only the voxelizer is swapped: the same GaussTR checkpoint and head run with GaussTR's heuristic voxelizer (baseline, dashed) or GaussianFormer's Local Aggregation op (ours, solid; third-party, see [`third_party/README.md`](third_party/README.md)). Local Aggregation makes voxelization differentiable, opening a gradient path from a 3D occupancy loss back to the Gaussians (not trained here). Panels show the final head prediction for nuScenes val sample 600; time is end-to-end per sample (conditions under Key result). Camera images: [nuScenes](https://www.nuscenes.org/), CC BY-NC-SA 4.0; this figure is licensed likewise.*
 
 ## Key result
 

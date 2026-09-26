@@ -31,3 +31,6 @@ __pycache__/
 CLAUDE.md
 RELEASE_SCOPE.md
 .checks/
+
+# hero figure raw inputs (nuScenes images, dump pkls) — never publish
+assets/fig_src/raw/
