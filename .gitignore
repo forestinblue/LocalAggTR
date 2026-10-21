@@ -34,3 +34,7 @@ RELEASE_SCOPE.md
 
 # hero figure raw inputs (nuScenes images, dump pkls) — never publish
 assets/fig_src/raw/
+
+# hero figure inputs copied out of raw/ (nuScenes frames) and draw.io backups — never publish
+assets/fig_src/cam_*.jpg
+assets/fig_src/.$*.bkp
